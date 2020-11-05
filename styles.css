@@ -126,6 +126,65 @@ footer {
   background-color: white;
 }
 
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.publish > form {
+  display: flex;
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
+}
+
+.publish > form input {
+  height: 45px;
+  padding: 10px;
+  margin-right: -5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid silver;
+}
+
+.explanatory-video {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
+
 main {
-    margin-top: 285px;
-  }
+  margin-top: 285px;
+}
+
+.publish form div button {
+  background-color: #025157;
+  color: white;
+  border: 0px;
+  height: 45px;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.publish form {
+  display: flex;
+  align-items: center;
+}
