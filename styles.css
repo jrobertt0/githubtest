@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(51, 74, 177)
+}
